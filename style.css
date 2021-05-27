@@ -3,8 +3,8 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 4em;
-  background-color: #833af0;
-  color: #61e9f3;
+  background-color: #007694;
+  color: #2fbbc5;
   font-style: italic;
   font-weight: bolder;
   text-align: center;
@@ -13,7 +13,7 @@ body {
 h1 {
   font-family: verdana, arial, san-serif;
   font-style: italic;
-  color: #2326c0;
+  color: #1619d3;
 }
 
 button {
@@ -23,6 +23,14 @@ button {
   background: #1ee459;
   border: none;
   outline: none;
+}
+
+#startBtn {
+  padding: 1em;;
+}
+
+#gameButtonArea {
+  padding-top: 2em;
 }
 
 #gameButtonArea > button {
@@ -35,7 +43,7 @@ button {
 }
 
 #button1 {
-  background: #8ff4f7;
+  background: #1d9599;
   font-size: xx-large;
   font-style: italic;
 }
@@ -45,7 +53,7 @@ button {
 }
 
 #button2 {
-  background: #ffdd85;
+  background: #d6b154;
   font-size: xx-large;
   font-style: italic;
 }
@@ -55,35 +63,47 @@ button {
 }
 
 #button3 {
-  background: #f1c9ff;
+  background: #ae5ccc;
   font-size: xx-large;
   font-style: italic;
 }
 
 #button3:active, #button3.lit {
-  background: #BD97CB;
+  background: #d77bf8;
 }
 
 #button4 {
-  background: #ffa8c8;
+  background: #dd6893;
   font-size: xx-large;
   font-style: italic;
 }
 
 #button4:active, #button4.lit {
-  background: #E56997;
+  background: #f792b7;
 }
 
 #button5 {
-  background: #ff8cc9;
+  background: #c9217b;
   font-size: xx-large;
   font-style: italic;
 }
 
 #button5:active, #button5.lit {
-  background: #BF3880;
+  background: #b97f9e;
 }
 
 .hidden {
   display: none;
+}
+
+footer {
+  color: #031a5a;
+  position: absolute;
+  bottom: 0;
+  /* width: 100%; */
+  height: 2.5rem;
+}
+
+#footer {
+  background-color: #66D2D6;
 }
